@@ -12,7 +12,7 @@ public class Arc {
 	}
 
 	public boolean isValid() {
-		if ((directie == true && location.jetoane > capacitate) || directie == false) { // daca este de output
+		if ((directie == true && location.jetoane > capacitate) || directie == false) {
 			return true;
 		} else {
 			return false;
