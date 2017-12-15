@@ -2,7 +2,7 @@ package classes;
 
 public class Arc {
 	int capacitate;
-	boolean directie; // true-output false-input
+	boolean directie;
 	Location location;
 
 	Arc(int capacitate, boolean directie, Location location) {
